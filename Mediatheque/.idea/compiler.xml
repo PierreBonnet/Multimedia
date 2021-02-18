@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ApiFacadeSon" />
+        <module name="Series" />
+        <module name="ApiFacadeVideo" />
+        <module name="Ebook" />
+        <module name="Films" />
+        <module name="ApiFacadeLecture" />
+        <module name="Musique" />
+        <module name="ApplicationServices" />
+        <module name="Podcast" />
+        <module name="Enews" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AplicationServices" target="1.5" />
+      <module name="Ebook" target="1.5" />
+      <module name="EBooks" target="1.5" />
+      <module name="Enews (1)" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
