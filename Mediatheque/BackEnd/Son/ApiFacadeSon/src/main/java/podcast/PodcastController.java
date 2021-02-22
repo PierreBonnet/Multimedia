@@ -1,11 +1,11 @@
 package podcast;
 
-public class SonController {
+class SonController {
 
 
-    SonDto getPodCastDetails(){
+    PodcastDto getPodCastDetails(){
         PodcastOrchestrateurService podCastOrchestrateurService = new PodcastOrchestrateurService();
         podCastOrchestrateurService.getDefaultPodcastService();
-        return new SonDto();
+        return new PodcastDto();
     }
 }

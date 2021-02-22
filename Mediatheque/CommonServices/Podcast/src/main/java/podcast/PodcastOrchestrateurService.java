@@ -1,5 +1,7 @@
 package podcast;
 
+import Enews.EnewsService;
+
 public class PodcastOrchestrateurService {
 
     public Podcast getDefaultPodcastService(){

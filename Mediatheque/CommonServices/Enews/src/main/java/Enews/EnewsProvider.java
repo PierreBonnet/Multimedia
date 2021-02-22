@@ -1,5 +1,7 @@
 package Enews;
 
+import applicationServices.ApiReceiver;
+
 public class EnewsProvider {
 
     String getDefaultPodcastProvider(){

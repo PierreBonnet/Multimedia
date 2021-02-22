@@ -1,10 +1,10 @@
-package podcast;
+package musique;
 
 import applicationServices.ApiReceiver;
 
-public class PodcastProvider {
+public class MusiqueProvider {
 
-    String getDefaultPodcastProvider(){
+    String getDefaultMusiqueProvider(){
         ApiReceiver api =new ApiReceiver();
         return api.getResponseApi();
     }
